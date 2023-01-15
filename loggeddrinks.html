@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="fixed_header"><nav>
+        <div><a id="home_button" href="loggedpage.html"><img src="logo.png" alt="Logo" height="70"></a></div>
+        <div class="search_box"><input class="searchbar" type="search" placeholder="Search"></div>
+        <ol>
+            <li><a href="loggedaboutpage.html">About</a></li>
+            <li><a href="loggedcontactpage.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ol>
+        <div><a href="shoppingcart.html"><img class="cart" src="carticon.jpg" alt="Shopping cart" width="60"></a></div>
+        </nav>
+    </header>
+
+    <div id="sellproduct"><a href="sellproduct.html"><button>Sell a product</button></a></div>
+
+
+    <div class="products_content">
+        <div class="product_categories">
+            <a href="loggedgames.html">Games</a>
+            <a href="loggedconsols.html">Consols</a>
+            <a href="loggeddrinks.html">Drinks</a>
+        </div>
+
+
+        <div id="fp">
+            <form class="filter_list">
+                <label>Filters</label><br><br>
+                <input type="checkbox" id="supplier1" name="supplier1" value="Supplier1">
+                <label for="supplier1">Sony</label><br>
+                <input type="checkbox" id="supplier2" name="supplier2" value="Supplier2">
+                <label for="supplier2">CD Projekt</label><br>
+                <input type="checkbox" id="supplier3" name="supplier3" value="Supplier3">
+                <label for="supplier3">GFUEL</label><br><br>
+                <label>Price Range</label><br>
+                <input type="range" min="1" max="100" value="0" class="slider" id="myRange"><br><br>
+                <label>Star Ratings</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </form>
+
+            <div class="posted_products">
+                <a href="loggedfourpack.html"><div class="posted_product">
+                    <img src="fourpack.jpg" alt="4 Pack"><br>
+                    <h2>GFUEL 4PACK</h2><br>
+                    <h3>10$</h3>
+                </div></a>
+            </div>
+        </div>
+
+
+    </div>
+      
+    <footer>
+        <div class="footer_content">
+            <h2>Gaming center</h2>
+            <br>
+            <p>Delft, Netherlands</p>
+            <br><br><br>
+            <u>
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+                <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+            </u>
+        </div>
+        <div class="footer_ending">
+            <p>Copyright &copy;2022 GamingCenter. Designed by Jerzy and Garv</p>
+        </div>
+    </footer>
+</body>
+</html>
